@@ -74,4 +74,5 @@ end
   #   apt-get update
   #   apt-get install -y apache2
   # SHELL
+  config.vm.provision "shell", path: "../prep_for_k8s.sh"
 end
