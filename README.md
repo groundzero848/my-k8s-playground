@@ -29,9 +29,10 @@ Follow kubernetes docs to join the cluster.
 ```
 
 SSH Port Forwarding
-'''
+
+```
 My host is on another computer on the network, so I use this for convenience to ssh into my cluster nodes.
 
 k8s-clu1-cp1 is forwarded to 2022 on the host.
 k8s-clu1-wk1 is forwarded to 2122 on the host.
-'''
+```
